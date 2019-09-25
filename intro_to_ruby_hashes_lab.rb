@@ -23,7 +23,7 @@ end
 
 def my_hash_creator(key, value)
   got_it = {}
-  got_it[:#{key}] = #{value}
+  got_it[key] = value
 end
 
 def read_from_hash(hash, key)
